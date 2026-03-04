@@ -1,22 +1,21 @@
----
-layout: home
-title: 首页
-date: 2026-03-04 12:00:00
----
+# 👋 你好，我是 JunZhu-01
 
-## 👋 欢迎来到我的个人主页
-你好！我是 JunZhu-01！
+欢迎来到我的个人主页！
 
-### 📚 近期学习
-- 正在学习前端开发
-- 研究 Git 和 GitHub 用法
-- 探索 Jekyll 主题定制
+## 📚 关于我
+- 热爱编程和开源
+- 持续学习，不断进步
+- 喜欢分享技术心得
 
-### 🛠️ 技术栈
-- 编程语言：Python, JavaScript
-- 工具：Git, VS Code, GitHub
-- 框架：Jekyll, Bootstrap
+## 🛠️ 技术栈
+- **编程语言**：Python, JavaScript
+- **工具**：Git, VS Code, GitHub
+- **其他**：HTML/CSS, Markdown
 
-### 📫 联系我
-- GitHub: [JunZhu-01](https://github.com/JunZhu-01)
-- 邮箱：JunZhu001@Zhu.com
+## 🔗 我的链接
+- [GitHub](https://github.com/JunZhu-01) - 我的代码仓库
+- [邮箱](mailto:your-email@example.com) - 欢迎交流
+
+## ✨ 最近更新
+- 2026.03.04：美化了 Git Pages 个人主页
+- 持续更新中...
