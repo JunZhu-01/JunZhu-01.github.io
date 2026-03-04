@@ -1,57 +1,6 @@
-# 站点基础配置
+# 最简配置，使用 GitHub 官方原生支持的主题
+theme: jekyll-theme-cayman
 title: JunZhu-01 的个人主页
-tagline: 你所热爱的就是你的生活
-description: 这是 JunZhu-01 ,个人睡眠最长纪录保持者。
-url: "https://junzhu-01.github.io" 
-baseurl: ""
-timezone: Asia/Shanghai
-
-# 主题配置 (替换成更美观的主题)
-remote_theme: cotes2020/jekyll-theme-chirpy
-theme: null # 禁用默认主题
-
-# 页面显示配置
+description: 分享学习心得，记录成长点滴
+show_downloads: false
 lang: zh-CN
-avatar: /assets/img/avatar.png # 可以放你的头像，需创建对应文件夹并上传图片
-toc: true # 开启目录
-comments:
-  active: "disqus" # 可选：开启评论功能
-  disqus:
-    shortname: "junzhu-01" # 替换成你的 disqus 短名称
-
-# 导航栏配置
-nav:
-  - title: 首页
-    url: /
-  - title: 关于我
-    url: /about/
-  - title: 博客
-    url: /posts/
-  - title: 项目
-    url: /projects/
-
-# 社交链接 
-social:
-  github: JunZhu-01
-  email: JunZhu001@Zhu.com
-
-
-# 外观配置
-darkmode: auto # 自动切换深色/浅色模式
-back_to_top: true # 显示回到顶部按钮
-pageview: false # 如需统计访问量可开启
-
-# 构建配置
-markdown: kramdown
-highlighter: rouge
-permalink: /posts/:title/
-collections:
-  tabs:
-    output: true
-    sort_by: order
-
-# 插件
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
