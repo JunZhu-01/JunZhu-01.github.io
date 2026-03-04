@@ -1,31 +1,82 @@
-/* 轻微美化样式，不修改主题整体风格 */
+/* 全局样式 */
 body {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
-  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 1.8;
+  color: #333;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 2rem;
 }
 
-h1, h2 {
-  color: #2c3e50;
-  margin-top: 1.5rem;
+/* 容器居中，限制最大宽度 */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
+/* 标题样式 */
+h1 {
+  color: #1e293b;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  color: #334155;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+/* 分隔线 */
+hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 2rem 0;
+}
+
+/* 列表美化 */
 ul {
   list-style: none;
-  padding-left: 1rem;
+  padding-left: 0;
+}
+
+ul li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.5rem;
 }
 
 ul li::before {
-  content: "✓ ";
-  color: #2ecc71;
+  content: "✓";
+  color: #10b981;
   font-weight: bold;
+  position: absolute;
+  left: 0;
 }
 
+/* 链接样式 */
 a {
-  color: #3498db;
+  color: #2563eb;
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
-  color: #2980b9;
+  color: #1d4ed8;
   text-decoration: underline;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #64748b;
+  font-size: 0.9rem;
 }
